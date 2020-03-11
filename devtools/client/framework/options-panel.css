@@ -69,6 +69,10 @@
   display: flex;
   padding: 4px 0;
   align-items: center;
+  /* Float all labels to the left to prevent labels expand
+     over the full available width */
+  float: left;
+  clear: left;
 }
 
 /* Add padding for label of select inputs in order to
